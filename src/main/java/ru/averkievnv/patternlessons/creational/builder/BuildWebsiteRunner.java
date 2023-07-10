@@ -5,7 +5,6 @@ public class BuildWebsiteRunner {
         Director director = new Director();
         director.setBuilder(new EnterpriseWebSiteBuilder());
         Website website = director.buildWebsite();
-
         System.out.println(website);
     }
 }
